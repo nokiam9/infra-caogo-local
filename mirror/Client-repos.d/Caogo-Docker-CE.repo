@@ -1,0 +1,5 @@
+[docker-ce]
+name=Docker CE Stable 
+baseurl=http://mirror.caogo.local/docker-ce/
+enabled=1
+gpgcheck=0

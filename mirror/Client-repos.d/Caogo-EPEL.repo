@@ -1,0 +1,5 @@
+[epel]
+name=Extra Packages for Enterprise Linux 7 
+baseurl=http://mirror.caogo.local/epel/
+enabled=1
+gpgcheck=0

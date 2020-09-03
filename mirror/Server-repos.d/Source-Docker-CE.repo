@@ -1,0 +1,5 @@
+[docker-ce]
+name=Docker CE Stable - $basearch
+baseurl=https://mirrors.huaweicloud.com/docker-ce/linux/centos/$releasever/$basearch/stable/
+enabled=1
+gpgcheck=0

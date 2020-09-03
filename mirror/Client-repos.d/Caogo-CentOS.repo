@@ -1,0 +1,32 @@
+# CentOS-Base.repo
+#
+# Yum Repo Source for Centos 7.8 baseline
+# Created by sj0225@icloud.com
+#
+
+[base]
+name=CentOS7 - Base
+baseurl=http://mirror.caogo.local/centos/base/
+enabled=1
+gpgcheck=0
+
+#released updates
+[updates]
+name=CentOS7 - Updates
+baseurl=http://mirror.caogo.local/centos/updates/
+enabled=1
+gpgcheck=0
+
+#additional packages that may be useful
+[extras]
+name=CentOS7 - Extras
+baseurl=http://mirror.caogo.local/centos/extras/
+enabled=1
+gpgcheck=0
+
+#additional packages that extend functionality of existing packages
+[centosplus]
+name=CentOS7 - Plus
+baseurl=http://mirror.caogo.local/centos/centosplus/
+enabled=1
+gpgcheck=0

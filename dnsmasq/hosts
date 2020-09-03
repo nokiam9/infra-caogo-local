@@ -1,0 +1,18 @@
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+
+127.0.0.1       dnsmasq
+192.168.0.1     gateway
+192.168.0.5     ap
+192.168.0.8     proxy
+192.168.0.11    plc
+
+192.168.0.130   dnsmasq dns ns01 ns02
+192.168.0.130   nfs
+192.168.0.130   harbor registry reg
+192.168.0.130   mirror
+
+192.168.0.132   pve01
+
+192.168.0.210   master1
+192.168.0.212   worker1

@@ -1,0 +1,5 @@
+[kubernetes]
+name=kubernetes - el7-x86_64
+baseurl=http://mirror.caogo.local/kubernetes/
+enabled=1
+gpgcheck=0

@@ -1,0 +1,32 @@
+# CentOS-Base.repo
+#
+# Yum Repo Source for Centos 7.8 baseline
+# Create by sj0225@icloud.com
+#
+
+[base]
+name=CentOS-$releasever - Base
+baseurl=https://mirrors.huaweicloud.com/centos/$releasever/os/$basearch/
+enabled=1
+gpgcheck=0
+
+#released updates
+[updates]
+name=CentOS-$releasever - Updates
+baseurl=https://mirrors.huaweicloud.com/centos/$releasever/updates/$basearch/
+enabled=1
+gpgcheck=0
+
+#additional packages that may be useful
+[extras]
+name=CentOS-$releasever - Extras
+baseurl=https://mirrors.huaweicloud.com/centos/$releasever/extras/$basearch/
+enabled=1
+gpgcheck=0
+
+#additional packages that extend functionality of existing packages
+[centosplus]
+name=CentOS-$releasever - Plus
+baseurl=https://mirrors.huaweicloud.com/centos/$releasever/centosplus/$basearch/
+enabled=1
+gpgcheck=0
